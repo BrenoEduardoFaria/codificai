@@ -6,14 +6,14 @@
 
 body {
 	font-family: Arial, sans-serif;
-	background-color: #f9f9f9;
+	background-color: #f0f8ff; /* azul claro de fundo */
 	color: #333333;
 	line-height: 1.6;
 	font-size: 18px;
 }
 
 header {
-	background-color: #005f73;
+	background-color: #004080; /* azul escuro */
 	color: white;
 	padding: 20px 0;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
@@ -59,7 +59,7 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #0a9396;
+	background-color: #0066cc;
 }
 
 /* Conteúdo principal */
@@ -71,7 +71,7 @@ main {
 	text-align: center;
 	font-size: 28px;
 	margin-bottom: 20px;
-	color: #005f73;
+	color: #004080;
 }
 
 p,
@@ -82,15 +82,15 @@ p,
 
 #missao {
 	font-size: 22px;
-	color: #9b2226;
+	color: #003366;
 }
 
 i {
-	color: #bb3e03;
+	color: #003366;
 }
 
 i u {
-	color: #005f73;
+	color: #004080;
 }
 
 .beneficios {
@@ -119,8 +119,8 @@ i u {
 }
 
 .lista-beneficios .itens {
-	background-color: rgba(224, 247, 250, 0.9);
-	border: 2px solid #00acc1;
+	background-color: rgba(210, 230, 255, 0.9);
+	border: 2px solid #0077cc;
 	padding: 20px 30px;
 	border-radius: 8px;
 	transition: 0.3s;
@@ -128,7 +128,7 @@ i u {
 }
 
 .lista-beneficios .itens:hover {
-	background-color: rgba(178, 235, 242, 1);
+	background-color: rgba(180, 210, 255, 1);
 	transform: scale(1.05);
 	box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
 }
@@ -136,30 +136,30 @@ i u {
 .lista-beneficios .itens a {
 	text-decoration: none;
 	font-weight: bold;
-	color: #00796b;
+	color: #004080;
 	font-size: 20px;
 }
 
 /* Exemplo com opacidade e sombra */
 .caixa-exemplo {
 	background-color: rgba(255, 255, 255, 0.95);
-	border: 2px solid #cccccc;
+	border: 2px solid #b3c6ff;
 	border-radius: 10px;
 	padding: 20px;
 	margin: 20px auto;
 	width: 90%;
 	max-width: 800px;
-	box-shadow: 0 6px 15px rgba(5, 0, 0, 0.1);
+	box-shadow: 0 6px 15px rgba(0, 0, 50, 0.1);
 	transition: 0.3s;
 }
 
 .caixa-exemplo:hover {
-	box-shadow: 0 10px 20px rgba(5, 0, 0, 0.2);
+	box-shadow: 0 10px 20px rgba(0, 0, 50, 0.2);
 	transform: scale(1.02);
 }
 
 .caixa-exemplo h3 {
-	color: #005f73;
+	color: #004080;
 	margin-bottom: 10px;
 }
 
@@ -175,6 +175,6 @@ i u {
 }
 
 .caixa-link:hover .caixa-exemplo {
-	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 12px 24px rgba(0, 0, 50, 0.3);
 	transform: scale(1.03);
 }
