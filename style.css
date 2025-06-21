@@ -6,14 +6,14 @@
 
 body {
 	font-family: Arial, sans-serif;
-	background-color: #f0f8ff; /* azul claro de fundo */
+	background-color: #f0f8ff; 
 	color: #333333;
 	line-height: 1.6;
 	font-size: 18px;
 }
 
 header {
-	background-color: #004080; /* azul escuro */
+	background-color: #004080; 
 	color: white;
 	padding: 20px 0;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
@@ -30,7 +30,6 @@ header {
 	font-size: 36px;
 }
 
-/* Navegação */
 nav {
 	position: absolute;
 	top: 50%;
@@ -62,7 +61,6 @@ nav a:hover {
 	background-color: #0066cc;
 }
 
-/* Conteúdo principal */
 main {
 	padding: 40px 20px;
 }
