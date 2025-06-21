@@ -178,3 +178,74 @@ i u {
 	box-shadow: 0 12px 24px rgba(0, 0, 50, 0.3);
 	transform: scale(1.03);
 }
+
+@media (max-width: 768px) {
+  .caixa {
+    width: 95%;
+    padding: 0 10px;
+  }
+
+  nav {
+    position: static;
+    transform: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav li {
+    display: block;
+    margin-left: 0;
+  }
+
+  nav a {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #005f73;
+    border-radius: 4px;
+  }
+
+  nav a:hover {
+    background-color: #0077a8;
+  }
+
+  .titulo-centralizado {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  .beneficios,
+  .caixa-exemplo {
+    padding: 20px;
+    width: 95%;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .lista-beneficios {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .lista-beneficios .itens {
+    width: 90%;
+    text-align: center;
+  }
+
+  form {
+    padding: 20px;
+    width: 95%;
+  }
+}
